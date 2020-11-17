@@ -7,7 +7,7 @@
 #define MIN_VALUE -10       //minimalna wartosc liczb wliczanych do zakresu                 ***************************************************
 #define MAX_VALUE  10       //maksymalna wartosc liczb wliczanych do zakresu                *****                                         *****
 #define MIN_FREQ    8       //minimalna, prawidlowa czestotliwosc pulsu                     *****       INSTRUKCJE DLA PREPROCESORA       *****
-#define MAX_FREQ   14       //maksymalna, prawidlowa czestotliwosc pulsu                    *****     DEKLARACJA STALYCH SYMBLICZNYCH     *****
+#define MAX_FREQ   14       //maksymalna, prawidlowa czestotliwosc pulsu                    *****     DEKLARACJA STALYCH SYMBOLICZNYCH     *****
 #define CRIT_VALUE 99       //liczba oznaczajaca koniec wczytywania ze strumienia danych    *****                                         *****
 #define DATA_VALUE 99       //maksumalna liczba pobranych danych w jednej sekwencji         ***************************************************
 
