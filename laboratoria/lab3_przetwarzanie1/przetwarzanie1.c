@@ -359,7 +359,7 @@ int polprogowanie_bieli(int obraz_pgm[][MAX],int *wymx,int *wymy,int *szarosci){
 
 /************************************************************************************
  * Funkcja modyfikuje wartosci pikseli w celu uzyskania efektu korekcji gamma       *
- * ()									                                                              *
+ * (parametr ponizej wartosci 1 przyciemni obraz, natomiast powyzej go rozjasni)									                                                              *
  * \param[in] obraz_pgm tablica przechowujaca wartosci pikseli	                    *
  * \param[in] wymx szerokosc obrazka						                                    *
  * \param[in] wymy wysokosc obrazka						                                      *   
@@ -507,7 +507,7 @@ int rozmywanie_pionowe(int obraz_pgm[][MAX],int *wymx,int *wymy){
 }
 
 /************************************************************************************
- * Funkcja modyfikuje wartosci pikseli w celu uzyskania efektu rozmycia pionowego   *
+ * Funkcja modyfikuje wartosci pikseli w celu uzyskania efektu rozciągania histogramu   *
  *										                                                              *
  * \param[in] obraz_pgm tablica przechowujaca wartosci pikseli	                    *
  * \param[in] wymx szerokosc obrazka						                                    *
