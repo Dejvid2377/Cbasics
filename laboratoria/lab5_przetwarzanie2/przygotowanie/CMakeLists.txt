@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(example_project)
+include_directories(inc)
+file(GLOB SOURCE "src/*.c" "inc/*.h")
+add_executable(${przetwarzanie} ${SOURCE})
