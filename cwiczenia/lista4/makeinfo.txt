@@ -1,0 +1,6 @@
+Polecenia dla make:
+make run:	kompilacja i uruchomienie programu
+make:		tylko kompilacja
+make clean:	usuwa pliki wynikowe dzialania Makefile
+make help:	wyswietla wszystkie pliki wchodzace w sklad programu
+
